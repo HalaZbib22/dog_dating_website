@@ -16,38 +16,71 @@
     <section id="title">
       <!-- Nav Bar -->
 
+      <div class="container bg-primary">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container-fluid mx-5" >
+          <a class="navbar-brand" href="#"><div class="container my-5 text-light">
+            <h1>MyApp</h1>
+          </div></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- navbar links -->
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav fs-3 fw-bolder text-muted">
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#footer">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link px-4" href="#title">Download</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
       <!-- Title -->
-      <div class="container my-5">
+      <!-- <div class="container my-5">
         <h1>MyApp</h1>
+      </div> -->
+      <div class="container text-light m-5">
+        <div class="row justify-content-start justify-content-xl-center">
+          <div class="col-12 col-md-12 pb-4">
+        <h1>Meet dog next door.</h1></div>
+        <div class="col-6 px-3">
+        <button type="button" class="btn btn-dark btn-lg">Download</button>
       </div>
-      <div class="container my-5 pt-5">
-        <h1>Meet dog next door.</h1>
+      <div class="col-6 px-3">
+        <button type="button" class="btn btn-outline-light btn-lg">Download</button></div>
       </div>
-      <div class="container my-5">
-        <button type="button">Download</button>
-        <button type="button">Download</button>
-      </div>
-      <div>
+      <div class="col-12">
         <img src="images/app.png" />
       </div>
+      </div>
     </section>
+  </div>
 
     <!-- Features -->
 
     <section id="features">
       <div class="container my-5">
-        <div class="row justify-content-center">
-          <div class="col-12 col-lg-6 text-center">
+        <div class="row justify-content-center  text-center">
+          <div class=" col-12 col-md-4">
             <img src="images/check.png" alt="Check" />
             <h3 class="fw-bolder fs-1">Feature1</h3>
             <p>Write something here...</p>
           </div>
-          <div class="col-12 col-lg-6 text-center">
+          <div class="col-12 col-md-4">
             <img src="images/bullseye.png" alt="bullseye" />
             <h3 class="fw-bolder fs-1">Feature2</h3>
             <p>Write something here...</p>
           </div>
-          <div class="col-12 col-lg-6 text-center">
+          <div class="col-12 col-md-4">
             <img src="images/heart.png" alt="heart" class="src" />
             <h3 class="fw-bolder fs-1">Feature3</h3>
             <p>Write something here...</p>
@@ -56,35 +89,65 @@
       </div>
     </section>
 
+    <div class="container text-center bg-primary py-5">
     <!-- Testimonials -->
 
-    <section id="testimonials">
-      <h2>Quote 1. Woof.</h2>
-      <img src="images/dog-img.jpg" />
-      <em>Beirut, Lebanon</em>
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators ">
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+  </div>
 
-      <h2>Quote 2. Woof.</h2>
-      <img src="images/dog-img.jpg" />
-      <em>Beirut, Lebanon</em>
+  <div class="carousel-inner py-5 ">
+    <div class="carousel-item active ">
+          <section id="testimonials">
+      <h2 class="fw-bolder">Quote 1. Woof.</h2>
+      <img src="images/dog-img.jpg" class="rounded-circle p-3" width="10%" height="7%" alt="quote1" />
+      <em class="text-light">Beirut, Lebanon</em>
+    </div>
+
+    <div class="carousel-item">
+      <h2 class="fw-bolder">Quote 2. Woof.</h2>
+      <img src="images/dog-img.jpg" class="rounded-circle p-3" width="10%" height="7%" alt="quote2"/>
+      <em class="text-light">Beirut, Lebanon</em>
     </section>
+    </div>
+
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
 
     <!-- Press -->
 
     <section id="press">
-      <img src="images/mtv-logo.png" />
-      <img src="images/lbci-logo.png" />
+      <div class="container justify-content-center pt-5">
+        <div class="row px-3">
+          <div class="col-lg-6 col-sm-3">
+      <img src="images/mtv-logo.png" /></div>
+      <div class="col-lg-6 col-sm-3">
+      <img src="images/lbci-logo.png" /></div>
+    </div>
+    </div>
     </section>
+  </div>
 
     <!-- Pricing -->
 
     <section id="pricing">
       <div class="container my-5">
-        <div class="row justify-content-center">
-        <div class="col-12 text-center py-5">
+        <div class="row justify-content-center text-center">
+        <div class="col-12 py-5">
           <h2 class="fw-bolder">Packages</h2>
           <p>Something interesting here...</p>
         </div>
-        <div class="col-12 col-lg-4 text-center px-4">
+        <div class="col-6 col-lg-4 px-4">
           <div class="border rounded-top py-3"><h3 class="fw-bolder">Package 1</h3></div>
             <div class="border rounded-bottom py-4"><h2 class="fw-bolder">Free</h2>
           <p>5 Matches Per Day</p>
@@ -94,7 +157,7 @@
         </div>
         </div>
 
-        <div class="col-12 col-lg-4 text-center px-4">
+        <div class="col-6 col-lg-4 px-4">
           <div class="border rounded-top py-3"><h3 class="fw-bolder">Package 2</h3></div>
           <div class="border rounded-bottom py-4"><h2 class="fw-bolder">$29 / mo</h2>
           <p>Unlimited Matches</p>
@@ -104,7 +167,7 @@
         </div>
         </div>
 
-        <div class="col-12 col-lg-4 text-center px-4">
+        <div class="col-6 col-lg-4 px-4">
           <div class="border rounded-top py-3"><h3 class="fw-bolder">Package 3</h3></div>
           <div class="border rounded-bottom py-4"><h2 class="fw-bolder">$49 / mo</h2>
           <p>Pirority Listing</p>
@@ -119,18 +182,31 @@
     </section>
 
     <!-- Call to Action -->
-
     <section id="cta">
+      <div class="container bg-primary text-light py-5">
+        <div class="row justify-content-center text-center">
+          <div class="col-12 col-sm-6 ">
       <h3>The APP that your log needs.</h3>
-      <button type="button">Download</button>
-      <button type="button">Download</button>
+    </div>
+      </div>
+    <div class="row justify-content-center text-center">
+      <div class="col-6 ">
+      <button type="button"  class="btn btn-dark btn-lg">Download</button></div>
+      <div class="col-6">
+      <button type="button" class="btn btn-outline-dark btn-lg">Download</button></div>
+    </div>
+  </div>
+
     </section>
 
     <!-- Footer -->
 
     <footer id="footer">
+      <div class="text-center p-5 fw-bold">
       <p>© Copyright 2022 SEF</p>
+    </div>
     </footer>
+
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
