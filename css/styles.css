@@ -1,21 +1,33 @@
-#title , #testimonials , #press , #cta{
+#title, #testimonials , #press , #cta{
     background-color: #674bff;
 }
 
+.footerm{
+    font-size:100px;
+}
+
 .title-header{
-    font-size: 50px;
+    font-size: 70px;
 }
 
 .title-image{
-    transform: rotate(25deg);
+    transform: rotate(20deg);
     position: absolute;
-    width: 20%;
+    width:15%;
 }
 
-@media(max-width:768px){
+@media(max-width:1200px){
     .title-image{
         position: static;
         transform: rotate(0deg);
-        width:auto;
+        width:100%;
     }
+    .title-header{
+        font-size: 50px;
+    }
+}
+
+#features{
+    position:relative;
+    background-color: white;
 }
