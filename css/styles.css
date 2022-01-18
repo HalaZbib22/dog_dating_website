@@ -20,6 +20,9 @@
 }
 
 @media(max-width:1028px){
+    .box{
+        text-align: center;
+    }
     .tilted{
         display:none;
     }
