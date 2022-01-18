@@ -19,9 +19,13 @@
     width:55%;
 }
 
-@media(max-width:1028px){
+@media(max-width:1200px){
     .box{
-        text-align: center;
+        align-content: center;
+    }
+    /* Center the download buttons */
+    .DB {
+        text-align:center;
     }
     .tilted{
         display:none;
@@ -35,3 +39,12 @@
         font-size: 50px;
     }
 }
+
+.contact:link{
+    text-decoration: none;
+    color:black;
+}
+.contact:hover{
+    color:#674bff;
+}
+
