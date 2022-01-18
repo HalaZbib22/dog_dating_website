@@ -1,3 +1,9 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400&display=swap");
+
+.titlefont{
+    font-family: Ubuntu;
+}
+
 #title, #testimonials , #press , #cta{
     background-color: #674bff;
 }
