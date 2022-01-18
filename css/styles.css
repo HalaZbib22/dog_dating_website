@@ -18,11 +18,18 @@
     display:block;
     width:55%;
 }
-
-@media(max-width:1200px){
-    .box{
-        align-content: center;
+@media(max-width:1396px){
+    .title-header{
+        font-size: 53px;
     }
+}
+
+@media(max-width:1024px){
+    .box{
+        text-align: center;
+        padding-right:12%;
+    }
+
     /* Center the download buttons */
     .DB {
         text-align:center;
@@ -46,5 +53,11 @@
 }
 .contact:hover{
     color:#674bff;
+}
+
+@media(min-width:1441px){
+    .box{
+        text-align: center;
+    }
 }
 
